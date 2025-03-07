@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    background-color: #222;
+}
+
+header {
+    padding: 6% 22%;
+    text-align: center;
+    margin: auto;
+    
+    a {
+        text-decoration: none;
+        color: #aaa;
+    }
+}
+
+.seccion {
+    margin: auto;
+    padding: 5%;
+    size: 20%;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #ddd;
+    margin: 2%;
+}
+
+.proyecto a {
+    text-decoration: none;
+    color: #ccc;
+    word-wrap: break-word;
+}
+
+#destacado {
+    background-color: #33312e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contenedor {
+        width: 70%;
+        .video {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56%;
+            border-radius: 8px;
+
+            iframe {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        }
+
+        h3 {
+            color: #f7efe9;
+        
+            b {
+                font-style: italic;
+            }
+        }
+    }
+}
+
+#archivo {
+    margin: 2% 0 0 0;
+    background-color: #333;
+    padding: 4%;
+
+    .proyecto {
+        width: 25%;
+        text-align: center;
+        background-color: #f1f1f1;
+        padding: 2%;
+        border-radius: 8px;
+        display: inline-block; /* Permite que los elementos respeten las columnas */
+
+        a {
+            color: #555;
+        }
+    }
+}
+
+#contacto {
+    background-color: #999;
+    margin: 2% 2% 0 2%;
+    color: #222;
+    
+
+    p {
+        font-size: 18px;
+    }
+
+    .form-container {
+        max-width: 60%;
+        margin: 5% auto;
+        padding: 2%;
+        background-color: #fde;
+        border-radius: 8px;
+    }
+
+    input, textarea {
+        width: 50%;
+        padding: 1%;
+        margin-bottom: 2%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    button {
+        background-color: #555;
+        color: #ccc;
+        font-size: 16px;
+        padding: 1% 1%;
+        margin-top: 1%;
+        border: none;
+        border-radius: 0.4%;
+        cursor: pointer;
+        width: 52%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 20% 5%;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .seccion {
+        padding: 5%;
+        font-size: 16px;
+    }
+
+    #numeros .proyecto {
+        width: 100%;
+        height: auto;
+    }
+
+    #destacado {
+        padding: 4%;
+
+        h3 {
+            font-size: 1.1rem;
+        }
+
+        .contenedor {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    #proyectos {
+        proyecto {
+            width: 50%;
+            padding: 2%;
+            line-height: 1.5;
+
+            a {
+                font-size: 10px;
+            }
+        }
+    }
+
+    #contacto {
+        p {
+            font-size: 13px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        input, textarea {
+            width: 96%;
+            padding: 2%;
+            font-size: 11px;
+        }
+
+        textarea {
+            margin-top: 2%;
+        }
+        
+        button {
+            font-size: 11px;
+            padding: 2% 2%;
+            width: 101%;
+        }
+    }
+
+    #contacto .contenedor iframe {
+        width: 110%;
+        height: 400%;
+    }
+}

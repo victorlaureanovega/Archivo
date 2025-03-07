@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Victor Laureano Vega</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+              <h1>Victor Laureano Vega</h1>
+            </a>
+        </header>
+
+
+
+        <section id="destacado" class="seccion">
+          <div class="contenedor">
+            <h3>Cortometraje de <b>Péndulo a media oscuridad</b></h3>
+            <div class="video">
+              <iframe 
+                  src="https://www.youtube.com/embed/z6mUjEQjh_g" 
+                  allowfullscreen>
+              </iframe>
+          </div>
+        </section>
+
+
+
+        <section id="archivo" class="seccion">
+          <div class="contenedor">
+            <div class="proyecto">
+              <a href="archivo.html">
+                Archivo
+              </a>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section id="contacto" class="seccion">
+          <p>Puede contactarme mediante el siguiente formulario:</p>
+        
+          <form id="formulario" method="POST">
+            <div class="input">
+              <div>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+              </div>
+              <div>
+                <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+              </div>
+            </div>
+        
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+        
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+        
+
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const formulario = document.getElementById("formulario");
+            const cE = "dmljdG9ybGF1cmVhbm92ZWdhQGdtYWlsLmNvbQ==";
+            const dE = atob(cE);
+            formulario.action = `https://formsubmit.co/${dE}`;
+          });
+        </script>
+    </body>
+</html>
