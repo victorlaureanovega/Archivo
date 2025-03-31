@@ -41,22 +41,24 @@
 
 
         <section id="contacto" class="seccion">
-          <p>Puede contactarme mediante el siguiente formulario:</p>
+          <p>Formulario de contacto:</p>
         
-          <form id="formulario" method="POST">
-            <div class="input">
-              <div>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+          <div class="formulario">
+            <form method="POST">
+              <div class="input">
+                <div>
+                  <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div>
+                  <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+                </div>
               </div>
-              <div>
-                <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
-              </div>
-            </div>
-        
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
-        
-            <button type="submit">Enviar</button>
-          </form>
+          
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+          
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
         </section>
         
 
