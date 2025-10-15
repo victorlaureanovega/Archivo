@@ -14,8 +14,8 @@ function Home() {
             <Encabezado />
 
             <section id="destacado" style={{ paddingTop: 100, paddingBottom: 100 }}>
-                <div class="card">
-                    <div class="card-image">
+                <div className="card" style={{ backgroundColor: "#111" }}>
+                    <div className="card-image" style={{ backgroundColor: "#111" }}>
                         <iframe 
                             title="Cortometraje de Péndulo a media oscuridad"
                             src="https://www.youtube.com/embed/z6mUjEQjh_g"
@@ -23,7 +23,7 @@ function Home() {
                             style={{ width: "100%", height: 350 }}
                         />
                     </div>
-                    <div class="card-content">
+                    <div className="card-content" style={{ backgroundColor: "#111" }}>
                         <p style={{ color: "#EEE" }}>
                             Cortometraje de
                             <span style={{ fontStyle: "italic" }}> Péndulo a media oscuridad </span>

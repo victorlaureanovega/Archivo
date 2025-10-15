@@ -32,10 +32,18 @@ html {
     body {
       font-size: 1.53rem;
     }
+
+    #destacado, #archivo-blog, #noticia, #archivo, #blog, .entrada-blog {
+      padding: 0 2rem;
+    }
   }
   @media (max-width: 382px) {
     body {
       font-size: 1.35rem;
+    }
+
+    #destacado, #archivo-blog, #noticia, #archivo, #blog, .entrada-blog {
+      padding: 0 2rem;
     }
   }
   h1, h2, h3, h4, h5, h6 {
