@@ -4,10 +4,12 @@ import "../../css/sakura.css";
 function Pendulo() {
     return (
         <main>
-            <div className="entrada-blog" style={{ paddingBottom: 80 }}>
-                <div className="contenedor-encabezado">
+            <div className="contenedor-encabezado" style={{ backgroundColor: "#444" }}>
+                <div style={{ maxWidth: "52em", margin: "0 auto" }}>
                     <Indice titulo="Péndulo a media oscuridad" />
                 </div>
+            </div>
+            <div className="entrada-blog" style={{ paddingBottom: 80, paddingTop: 10 }}>
                 <p style={{ fontSize: 17 }}>
                     (Plaqueta publicada originalmente el 21 de junio de 2024)
                 </p>

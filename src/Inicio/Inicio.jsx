@@ -20,7 +20,7 @@ function Home() {
                             title="Cortometraje de Péndulo a media oscuridad"
                             src="https://www.youtube.com/embed/z6mUjEQjh_g"
                             allowFullScreen
-                            style={{ width: "100%", height: 350 }}
+                            style={{ width: "100%", height: 400 }}
                         />
                     </div>
                     <div className="card-content" style={{ backgroundColor: "#111" }}>

@@ -20,8 +20,12 @@ html {
   }
 
   #destacado, #archivo-blog, #noticia, #archivo, #blog, .entrada-blog {
-    max-width: 38em;
+    max-width: 50em;
     margin: 0 auto;
+  }
+
+  #archivo {
+    max-width: 36em;
   }
 
   #noticia h2, #noticia h4, #noticia p {
@@ -115,6 +119,9 @@ html {
   
   li {
     margin-bottom: 0.4em;
+  }
+  li span:hover {
+    text-decoration: underline;
   }
   
   blockquote {

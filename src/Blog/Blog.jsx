@@ -4,11 +4,11 @@ import "../css/sakura.css";
 
 function Blog() {
     return (
-        <body style={{ backgroundColor: "#333" }}>
+        <body style={{ backgroundColor: "#444" }}>
             <main>
                 <section id="blog">
                     <div>
-                        <h1 style={{ paddingTop: 100, paddingBottom: 100, color: "#EEE" }}> Óbice y antonomasia </h1>
+                        <h1 style={{ paddingTop: 120, paddingBottom: 100, color: "#EEE" }}> Óbice y antonomasia </h1>
                     </div>
                     <div style={{ paddingBottom: 100 }}>
                         <Entrada titulo="Un prólogo tardío" enlace="blog/un-prologo-tardio" fecha="19/08/2025" />

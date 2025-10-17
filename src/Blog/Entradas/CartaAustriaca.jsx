@@ -4,10 +4,12 @@ import "../../css/sakura.css";
 function CartaAustriaca() {
     return (
         <main>
-            <div className="entrada-blog" style={{ paddingBottom: 80 }}>
-                <div className="contenedor-encabezado">
+            <div className="contenedor-encabezado" style={{ backgroundColor: "#444" }}>
+                <div style={{ maxWidth: "52em", margin: "0 auto" }}>
                     <Indice titulo="Carta a una austriaca" />
                 </div>
+            </div>
+            <div className="entrada-blog" style={{ paddingBottom: 80, paddingTop: 10 }}>
                 <p style={{ fontSize: 17 }}>
                     (También publicado en <span onClick={() => window.open("https://revista-theoria.github.io/#/visualizar/1", "_blank")}
                         style={{ textDecoration: "underline", cursor: "pointer" }}>
