@@ -1,0 +1,23 @@
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #222;
+}
+
+.enlaces img {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.enlaces p {
+    color: #EEE;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.invertir {
+    filter: invert(1);
+}

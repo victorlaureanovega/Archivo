@@ -1,6 +1,6 @@
 import Entrada from "./Entrada";
 import Footer from "../Componentes/Footer";
-import "../css/sakura.css";
+import "../CSS/sakura.css";
 
 function Blog() {
     return (

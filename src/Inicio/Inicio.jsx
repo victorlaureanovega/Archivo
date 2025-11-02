@@ -2,8 +2,8 @@ import { useNavigate } from "react-router-dom";
 import Encabezado from "../Componentes/Encabezados";
 import Footer from "../Componentes/Footer";
 import Noticias from "./noticias.json";
-import "../css/materialize.css";
-import "../css/sakura.css";
+import "../CSS/materialize.css";
+import "../CSS/sakura.css";
 
 function Home() {
     const navigate = useNavigate();

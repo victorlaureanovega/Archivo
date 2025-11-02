@@ -1,6 +1,6 @@
 import { EncabezadoArchivo } from "../Componentes/Encabezados";
 import Footer from "../Componentes/Footer";
-import "../css/sakura.css";
+import "../CSS/sakura.css";
 
 function Archivo() {
     return (

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../css/materialize.css";
+import "../CSS/materialize.css";
 
 function Entrada({ titulo, enlace, fecha }) {
     const navigate = useNavigate();

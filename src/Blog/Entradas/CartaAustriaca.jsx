@@ -1,5 +1,5 @@
 import Indice from "../Indice";
-import "../../css/sakura.css";
+import "../../CSS/sakura.css";
 
 function CartaAustriaca() {
     return (
