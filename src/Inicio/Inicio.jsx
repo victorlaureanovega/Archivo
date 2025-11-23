@@ -45,7 +45,6 @@ function Home() {
                 <h2 style={{ textTransform: "uppercase", color: "#5e2129" }}> Diario de Oztotlán </h2>
                 <article>
                     <h4 style={{ color: "black" }}> {noticia.titulo} </h4>
-                    <p style={{ fontSize: 16 }}> {noticia.autor} </p>
                     <p style={{ paddingBottom: 25 }}> {noticia.contenido} </p>
                 </article>
             </section>
