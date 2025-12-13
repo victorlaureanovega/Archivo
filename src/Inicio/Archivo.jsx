@@ -7,7 +7,7 @@ function Archivo() {
         <main>
             <EncabezadoArchivo />
 
-            <section id="archivo" style={{ paddingTop: 100, paddingBottom: 100, lineHeight: 2 }}>
+            <section id="archivo" style={{ paddingTop: 50, paddingBottom: 50, lineHeight: 2 }}>
                 <div>
                     <h3 style={{ paddingBottom: 15, backgroundColor: "#444", color: "#EEE", borderRadius: 6, padding: 10 }}> 2023 </h3>
                     <div>
@@ -19,7 +19,7 @@ function Archivo() {
                     </div>
                 </div>
 
-                <div style={{ paddingTop: 30 }}>
+                <div style={{ paddingTop: 10 }}>
                     <h3 style={{ paddingBottom: 15, backgroundColor: "#444", color: "#EEE", borderRadius: 6, padding: 10 }}> 2024 </h3>
                     <div>
                         <ul style={{ listStyleType: "none" }}>
@@ -43,7 +43,7 @@ function Archivo() {
                     </div>
                 </div>
 
-                <div style={{ paddingTop: 30 }}>
+                <div style={{ paddingTop: 10 }}>
                     <h3 style={{ paddingBottom: 15, backgroundColor: "#444", color: "#EEE", borderRadius: 6, padding: 10 }}> 2025 </h3>
                     <div>
                         <ul style={{ listStyleType: "none" }}>
