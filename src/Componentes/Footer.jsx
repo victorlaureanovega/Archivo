@@ -4,11 +4,11 @@ function Footer() {
     return (
         <footer className="contenedor-general-footer" style={{ padding: 40, backgroundColor: "#222", color: "#fff" }}>
             <nav className="enlaces" style={{ boxShadow: "none" }}>
-                <img src="instagram.svg" alt="Logo de Instagram" className="invertir"
+                <img src="Instagram.svg" alt="Logo de Instagram" className="invertir"
                     onClick={ () => window.open("https://www.instagram.com/victorlaureanovega", "_blank")}
                     style={{ marginLeft: 0 }}
                 />
-                <img src="github.svg" alt="Logo de Github"
+                <img src="Github.svg" alt="Logo de Github"
                     onClick={() => window.open("https://github.com/victorlaureanovega", "_blank")}
                 />
             </nav>

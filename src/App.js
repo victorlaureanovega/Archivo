@@ -5,7 +5,6 @@ import Blog from "./Blog/Blog.jsx";
 import CartaAustriaca from "./Blog/Entradas/CartaAustriaca.jsx";
 import Pendulo from "./Blog/Entradas/Pendulo.jsx";
 import PrologoTardio from "./Blog/Entradas/PrologoTardio.jsx";
-import './App.css';
 
 function App() {
   return (

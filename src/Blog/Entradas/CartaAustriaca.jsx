@@ -10,7 +10,7 @@ function CartaAustriaca() {
                 </div>
             </div>
             <div className="entrada-blog" style={{ paddingBottom: 80, paddingTop: 10 }}>
-                <p style={{ fontSize: 17 }}>
+                <p style={{ fontSize: 16 }}>
                     (También publicado en <span onClick={() => window.open("https://revista-theoria.github.io/#/visualizar/1", "_blank")}
                         style={{ textDecoration: "underline", cursor: "pointer" }}>
                         <span style={{ fontStyle: "italic" }}>Theoria</span>, No. 1: Inicios</span>, el 14 de junio de 2025)

@@ -10,7 +10,7 @@ function Pendulo() {
                 </div>
             </div>
             <div className="entrada-blog" style={{ paddingBottom: 80, paddingTop: 10 }}>
-                <p style={{ fontSize: 17 }}>
+                <p style={{ fontSize: 16 }}>
                     (Plaqueta publicada originalmente el 21 de junio de 2024)
                 </p>
                 <br /><br /><br /><br />
