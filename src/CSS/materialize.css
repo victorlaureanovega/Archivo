@@ -416,6 +416,15 @@
   --md-sys-color-scrim: var(--md-sys-color-scrim-dark);
 }
 
+.contenedor-general-entrada, .contenedor-general-entrada .card .card-content {
+  background-color: #222;
+}
+
+.contenedor-general-entrada:hover, .contenedor-general-entrada:hover .card .card-content {
+  background-color: #212121;
+  transition: 0.3s;
+}
+
 .primary {
   background-color: var(--md-sys-color-primary);
 }

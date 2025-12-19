@@ -24,10 +24,6 @@ html {
     margin: 0 auto;
   }
 
-  #archivo {
-    max-width: 36em;
-  }
-
   #noticia h2, #noticia h4, #noticia p {
     font-family: "Antic-Didon";
   }
@@ -206,7 +202,7 @@ html {
     background-color: /*#1d7484*/#444;
     color: #f9f9f9;
     border-radius: 1px;
-    border: 1px solid /*#1d7484*/#333;
+    /*border: 1px solid #1d7484 #333;*/
     cursor: pointer;
     box-sizing: border-box;
   }
@@ -216,6 +212,7 @@ html {
   }
   .button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, input[type=file]::file-selector-button:hover {
     background-color: /*#982c61*/#666;
+    transition: 0.5s;
     color: #f9f9f9;
     outline: 0;
   }

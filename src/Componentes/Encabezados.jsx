@@ -16,7 +16,7 @@ export function EncabezadoArchivo() {
             <header style={{ backgroundColor: "#222", textAlign: "center", paddingTop: 90, paddingBottom: 90 }}>
                 <h1 style={{ color: "#EEE" }}> Victor Laureano Vega </h1>
             </header>
-            <div style={{ backgroundColor: "#444" }}>
+            <div class="boton-regresar-inicio" style={{ backgroundColor: "#444" }}>
                 <p onClick={ () => navigate('/') }
                     style={{ color: "#EEE", padding: 10, textAlign: "center", fontSize: "14px", cursor: "pointer" }}> Regresar a inicio </p>
             </div>

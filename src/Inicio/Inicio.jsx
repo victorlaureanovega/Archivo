@@ -34,10 +34,10 @@ function Home() {
 
             <section id="archivo-blog" style={{ display: "flex", flexDirection: "row", gap: 10, paddingBottom: 100 }}>
                 <div className="archivo" style={{ flex: 1 }}>
-                    <button style={{ width: "100%", height: 50 }} onClick={ () => navigate("/archivo") }> Archivo </button>
+                    <button style={{ width: "100%", height: 50, borderRadius: 6 }} onClick={ () => navigate("/archivo") }> Archivo </button>
                 </div>
                 <div className="blog" style={{ flex: 1 }}>
-                    <button style={{ width: "100%", height: 50 }} onClick={ () => window.open("/blog", "_blank") }> Blog </button>
+                    <button style={{ width: "100%", height: 50, borderRadius: 6 }} onClick={ () => window.open("/blog", "_blank") }> Blog </button>
                 </div>
             </section>
 
