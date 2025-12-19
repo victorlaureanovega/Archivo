@@ -211,7 +211,7 @@ html {
     opacity: 0.5;
   }
   .button:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover, input[type=file]::file-selector-button:hover {
-    background-color: /*#982c61*/#666;
+    /*background-color: #982c61 #666;*/
     transition: 0.5s;
     color: #f9f9f9;
     outline: 0;
