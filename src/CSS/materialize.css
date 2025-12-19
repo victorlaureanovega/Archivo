@@ -416,6 +416,7 @@
   --md-sys-color-scrim: var(--md-sys-color-scrim-dark);
 }
 
+/* Entradas en la página inicial del blog */
 .contenedor-general-entrada, .contenedor-general-entrada .card .card-content {
   background-color: #222;
 }
@@ -423,6 +424,16 @@
 .contenedor-general-entrada:hover, .contenedor-general-entrada:hover .card .card-content {
   background-color: #212121;
   transition: 0.3s;
+}
+
+/* Botón de regresar a inicio en el encabezado del archivo */
+.boton-regresar-inicio {
+  background-color: #333;
+}
+
+.boton-regresar-inicio:hover {
+  background-color: #434343;
+  transition: 0.4s;
 }
 
 .primary {
