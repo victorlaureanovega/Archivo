@@ -1,19 +1,16 @@
-import "../CSS/Footer.css";
+import IconoEnlaces from "./IconoEnlaces";
+import Enlaces from "../Data/Enlaces";
 
 function Footer() {
     return (
-        <footer className="contenedor-general-footer" style={{ padding: 40, backgroundColor: "#222", color: "#fff" }}>
-            <nav className="enlaces" style={{ boxShadow: "none" }}>
-                <img src="assets/Instagram.svg" alt="Logo de Instagram" className="invertir"
-                    onClick={ () => window.open("https://www.instagram.com/victorlaureanovega", "_blank")}
-                    style={{ marginLeft: 0 }}
-                />
-                <img src="assets/Github.svg" alt="Logo de Github"
-                    onClick={() => window.open("https://github.com/victorlaureanovega", "_blank")}
-                />
+        <footer className="contenedor-general-footer" style={{ padding: 30, backgroundColor: "#222", display: "flex", flexDirection: "column",color: "#FFF" }}>
+            <nav className="enlaces" style={{ boxShadow: "none", display: "flex", flexDirection: "row", alignItems: "center", gap: 20 }}>
+                {Enlaces.map((enlace) => (
+                    <IconoEnlaces key={enlace.nombre} nombre={enlace.nombre} enlace={enlace.enlace} />
+                ))}
             </nav>
             <br /><br />
-            <p style={{ fontSize: 12 }}>
+            <p style={{ fontSize: 12, margin: 0, padding: 0, color: "#EEE" }}>
                 Este sitio utiliza estilos de
                 <span onClick={() => window.open("https://github.com/oxalorg/sakura/")}
                     style={{ cursor: "pointer", textDecoration: "underline" }}> Sakura </span>

@@ -1,6 +1,6 @@
 import { EncabezadoArchivo } from "../Componentes/Encabezados";
 import Footer from "../Componentes/Footer";
-import Proyectos from "./Proyectos.json";
+import Proyectos from "../Data/Proyectos";
 import "../CSS/sakura.css";
 
 function Archivo() {

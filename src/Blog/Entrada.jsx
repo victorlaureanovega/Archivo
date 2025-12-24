@@ -5,7 +5,7 @@ function Entrada({ titulo, enlace, fecha }) {
     const navigate = useNavigate();
 
     const visitarEntrada = () => {
-        navigate(`/${enlace}`);
+        navigate(enlace);
     }
 
     return (

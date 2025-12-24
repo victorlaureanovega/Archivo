@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import Encabezado from "../Componentes/Encabezados";
 import Footer from "../Componentes/Footer";
-import Noticias from "./Noticias.json";
+import Noticias from "../Data/Noticias";
 import "../CSS/materialize.css";
 import "../CSS/sakura.css";
 
