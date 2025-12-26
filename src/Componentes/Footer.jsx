@@ -3,7 +3,7 @@ import Enlaces from "../Data/Enlaces";
 
 function Footer() {
     return (
-        <footer className="contenedor-general-footer" style={{ padding: 30, backgroundColor: "#222", display: "flex", flexDirection: "column",color: "#FFF" }}>
+        <footer className="contenedor-general-footer" style={{ padding: 30, paddingTop: 40, backgroundColor: "#222", display: "flex", flexDirection: "column",color: "#FFF" }}>
             <nav className="enlaces" style={{ boxShadow: "none", backgroundColor: "#222",display: "flex", flexDirection: "row", alignItems: "center", gap: 20 }}>
                 {Enlaces.map((enlace) => (
                     <IconoEnlaces key={enlace.nombre} nombre={enlace.nombre} enlace={enlace.enlace} />

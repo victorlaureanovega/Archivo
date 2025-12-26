@@ -1,4 +1,4 @@
-import Indice from "../Indice";
+import { EncabezadoBlog } from "../../Componentes/Encabezados";
 import "../../CSS/sakura.css";
 
 function CartaAustriaca() {
@@ -6,7 +6,7 @@ function CartaAustriaca() {
         <main>
             <div className="contenedor-encabezado" style={{ backgroundColor: "#444" }}>
                 <div style={{ maxWidth: "52em", margin: "0 auto" }}>
-                    <Indice titulo="Carta a una austriaca" />
+                    <EncabezadoBlog titulo="Carta a una austriaca" />
                 </div>
             </div>
             <div className="entrada-blog" style={{ paddingBottom: 80, paddingTop: 10 }}>

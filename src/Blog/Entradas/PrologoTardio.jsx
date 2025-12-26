@@ -1,4 +1,4 @@
-import Indice from "../Indice";
+import { EncabezadoBlog } from "../../Componentes/Encabezados";
 import "../../CSS/sakura.css";
 
 function PrologoTardio() {
@@ -6,7 +6,7 @@ function PrologoTardio() {
         <main>
             <div className="contenedor-encabezado" style={{ backgroundColor: "#444" }}>
                 <div style={{ maxWidth: "52em", margin: "0 auto" }}>
-                    <Indice titulo="Un prólogo tardío" />
+                    <EncabezadoBlog titulo="Un prólogo tardío" />
                 </div>
             </div>
             <div className="entrada-blog" style={{ paddingBottom: 80 }}>

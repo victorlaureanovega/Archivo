@@ -15,7 +15,7 @@ function Archivo() {
 
                         {proyecto.proyectos.map((item) => (
                             <ul key={item.nombre} style={{ listStyleType: "none", margin: 0 }}>
-                                <li onClick={() => { window.open(item.enlace, "_blank") }}>
+                                <li onClick={ () => { window.open(item.enlace, "_blank") } }>
                                     <span style={{ cursor: "pointer" }}> {item.nombre} </span>
                                 </li>
                             </ul>
