@@ -1,3 +1,4 @@
+// Para mostrar en el Archivo. Los años más recientes deben ocupar las primeras posiciones del arreglo
 export const Proyectos = [
     {
         "anio": 2024,

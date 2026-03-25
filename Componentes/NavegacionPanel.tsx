@@ -1,9 +1,7 @@
-type NavegacionPanelProps = {
-    activo: string;
-    setActivo: (valor: string) => void;
-};
+import { NavegacionPanelLateral } from "../Data/Interfaces";
 
-export default function NavegacionPanel({ activo, setActivo }: NavegacionPanelProps) {
+// Este componente representa la barra de navegación del panel lateral (en el que puede alternarse entre el Blog y el Archivo)
+export default function NavegacionPanel({ activo, setActivo }: NavegacionPanelLateral) {
     return (
         <nav className="flex gap-6 mb-4 text-[#EEE] justify-center">
             <ul className="flex gap-16 py-6 md:py-8 font-semibold">

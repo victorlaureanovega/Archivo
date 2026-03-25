@@ -1,3 +1,4 @@
+// Para almacenar la información de cada entrada del blog. Las más recientes deben ocupar las primeras posiciones del arreglo
 export const Entradas = [
     {
         "titulo": "Un prólogo tardío",

@@ -1,5 +1,6 @@
 import { Noticias } from "../Data/Noticias";
 
+// Este componente muestra la noticia más reciente del arreglo Noticias. Estas son ficticias y se refieren a algún suceso ocurrido en Oztotlán
 export default function Diario() {
     const noticia = Noticias[0];
     

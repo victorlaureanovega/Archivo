@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { Entradas } from "../Data/Entradas";
+import type { ArchivoBlog } from "../Data/Interfaces"
 
-type BlogProps = {
-  activo: string;
-};
-
-export default function Blog({ activo }: BlogProps) {
+/*
+Este componente muestra cada entrada del blog, con su nombre y fecha de publicación.
+*/
+export default function Blog({ activo }: ArchivoBlog) {
     const entradasBlog = Entradas;
 
     return (

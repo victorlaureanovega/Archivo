@@ -1,3 +1,4 @@
+// Para el componente del Diario de Oztotlán. Las noticias más recientes deben ocupar las primeras posiciones del arreglo
 export const Noticias = [
     {
         "titulo": "Atentado en el camino de Kumano deja dos muertos y cuatro heridos",
