@@ -25,7 +25,7 @@ export default function Home() {
           {cargando && <Cargando tipo="cortometraje" color="white" />}
 
           {/* El iframe se renderiza desde el principio (aunque se mantiene invisible) para evitar el efecto de fade in */}
-          <iframe className={`h-full w-[100%] md:w-[75%] ${cargando ? "invisible" : "visible"}`}
+          <iframe className={`h-65  md:h-full w-[100%] md:w-[75%] ${cargando ? "invisible" : "visible"}`}
             src="https://www.youtube.com/embed/z6mUjEQjh_g"
             title="Cortometraje de Péndulo a media oscuridad"
             allowFullScreen onLoad={() => setCargando(false)}
