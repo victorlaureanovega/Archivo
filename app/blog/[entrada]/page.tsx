@@ -2,7 +2,7 @@
 
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Entradas } from "@/Data/Entradas";
+import { Entradas } from "../../../Data/Entradas";
 
 /*
 En este componente se renderizan todas las entradas del blog (lo cual ocurre en el div con dangerouslySetInnerHTML).
@@ -27,8 +27,9 @@ export default function Entrada() {
       {/* Encabezado */}
       <div className="bg-[#444]">
         {/* Título de la entrada */}
-        <div className="max-w-[55em] mx-8 md:mx-auto">
-          <h1 className="text-[#EEE] pt-34 pb-16 text-3xl md:text-4xl font-bold">{entrada?.titulo}</h1>
+        <div className="text-[#EEE] max-w-[55em] mx-8 pt-34 md:mx-auto">
+          <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8">{entrada?.titulo}</h1>
+          <p className="text-sm pb-6">Publicado el {entrada?.fecha}</p>
         </div>
       </div>
 
